@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es37</title>
+</head>
+<body>
+    <label for="">Inserisci Attori</label>
+    <form action="inserisci.php" method="post">
+        <input type="text" placeholder="Nome" name="nome"><br>
+        <input type="number" placeholder="Anno di Nascita" name="annoNasc" min="1900"><br>
+        <input type="text" placeholder="Nazionalità" name="nazionalita"><br>
+        <input type="submit">
+    </form>
+    <br>
+    <label for="">Elimina Proiezione</label>
+    <form action="elimina.php" method="post">
+        <input type="number" placeholder="Codice Proiezione" name="codProiezione" min="1"><br>
+        <input type="submit">
+    </form>
+    <br>
+    <label for="">Aggiorna voto Recensione</label>
+    <form action="aggiorna.php" method="post">
+        <input type="number" placeholder="Codice Recensione" name="codRec" min="1"><br>
+        <input type="number" placeholder="Voto" name="voto" min="1" max="5"><br>
+        <input type="submit">
+    </form>
+    <br>
+</body>
+</html>
